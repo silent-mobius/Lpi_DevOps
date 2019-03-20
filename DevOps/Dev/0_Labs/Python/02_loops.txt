@@ -1,0 +1,6 @@
+#python loops
+	A.Print i as long as i is less than 6.
+	B.Stop the loop if i is 3.
+	C.Loop through the items in the fruits list.
+	D.In the loop, when the item value is "banana", jump directly to the next item.
+	E.Use the range function to loop through a code set 6 times.
