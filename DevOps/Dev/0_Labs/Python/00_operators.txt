@@ -1,0 +1,7 @@
+erators:
+
+	A.Create a script that usesq variables x and y.Multiply 10 with 5 using x and y, and print the result.
+	B.In the same script,usingDivide 10 by 2, and print the result.
+	C.Use the correct membership operator to check if "apple" is present in the fruits object.
+	D.Use the correct comparison operator to check if 5 is not equal to 10.
+	E.Use the correct logical operator to check if at least one of two statements is True.
