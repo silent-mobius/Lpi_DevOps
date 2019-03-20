@@ -1,0 +1,8 @@
+#python dictionaries
+
+	A.Use the get method to print the value of the "model" key of the car dictionary.
+	B.Change the "year" value from 1964 to 2018.
+	C.Add the key/value pair "color" : "red" to the car dictionary.
+	D.Use the pop method to remove "model" from the car dictionary.
+	E.Use the clear method to empty the car dictionary.
+

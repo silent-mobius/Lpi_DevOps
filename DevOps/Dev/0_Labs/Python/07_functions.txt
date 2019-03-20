@@ -1,0 +1,7 @@
+#python functions
+
+	A.Create a function named my_function.
+	B.Call (execute) a function named my_function.
+	C.Inside a function with two parameters, print the first parameter.
+	D.Let the function return the x parameter + 5.
+	
