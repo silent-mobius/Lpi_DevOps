@@ -1,0 +1,7 @@
+#python lists:
+
+	A.Print the second item in the fruits list.
+	B.Change the value from "apple" to "kiwi", in the fruits list.
+	C.Use the append method to add "orange" to the fruits list.
+	D.Use the insert method to add "lemon" as the second item in the fruits list.
+	E.Use the remove method to remove "banana" from the fruits list.
