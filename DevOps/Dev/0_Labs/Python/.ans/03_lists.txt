@@ -61,3 +61,26 @@ tion will always return a list containing at least the empty list because the em
 is a sublist of every list. Include a main program that demonstrate your function by
 displaying all of the sublists of several different lists.
 
+
+
+1.
+A.
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])
+
+
+B.
+fruits = ["apple", "banana", "cherry"]
+fruits[0] = "kiwi" 
+
+C.
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+
+D.
+fruits = ["apple", "banana", "cherry"]
+ fruits.insert(1,"lemon")
+
+E.
+fruits = ["apple", "banana", "cherry"]
+fruits.remove("banana")
