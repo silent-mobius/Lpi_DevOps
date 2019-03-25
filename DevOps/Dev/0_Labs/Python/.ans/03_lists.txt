@@ -1,0 +1,63 @@
+#python lists:
+1.
+	A.Print the second item in the fruits list.
+	B.Change the value from "apple" to "kiwi", in the fruits list.
+	C.Use the append method to add "orange" to the fruits list.
+	D.Use the insert method to add "lemon" as the second item in the fruits list.
+	E.Use the remove method to remove "banana" from the fruits list.
+2.
+Write a program that reads integers from the user and stores them in a list. Your
+program should continue reading values until the user enters 0. Then it should display
+all of the values entered by the user (except for the 0) in order from smallest to largest,
+with one value appearing on each line. Use either the sort method or the sorted
+function to sort the list.
+
+3.
+In this exercise, you will create a program that reads words from the user until the
+user enters a blank line. After the user enters a blank line your program should dis-
+play each word entered by the user exactly once. The words should be displayed in
+the same order that they were entered. For example, if the user enters:
+	first
+	second
+	first
+	third
+	second
+then your program should display:
+	first
+	second
+	third
+
+4.
+A proper divisor of a positive integer, n, is a positive integer less than n which divides
+evenly into n. Write a function that computes all of the proper divisors of a positive
+integer. The integer will be passed to the function as its only parameter. The function
+will return a list containing all of the proper divisors as its only result. Complete
+this exercise by writing a main program that demonstrates the function by reading
+a value from the user and displaying the list of its proper divisors. Ensure that your
+main program only runs when your solution has not been imported into another file.
+
+5.
+An integer, n, is said to be perfect when the sum of all of the proper divisors of n is
+equal to n. For example, 28 is a perfect number because its proper divisors are 1, 2,
+4, 7 and 14, and 1 + 2 + 4 + 7 + 14 = 28.
+Write a function that determines whether or not a positive integer is perfect. Your
+function will take one parameter. If that parameter is a perfect number then your func-
+tion will return true. Otherwise it will return false. In addition, write a main program
+that uses your function to identify and display all of the perfect numbers between 1
+and 10,000. Import your solution to Exercise 4 when completing this task.
+
+6.
+In order to win the top prize in a particular lottery, one must match all 6 numbers
+on his or her ticket to the 6 numbers between 1 and 49 that are drawn by the lottery
+organizer. Write a program that generates a random selection of 6 numbers for a
+lottery ticket. Ensure that the 6 numbers selected do not contain any duplicates.
+Display the numbers in ascending order.
+
+7.
+Using the definition of a sublist from Exercise 125, write a function that returns a list
+containing every possible sublist of a list. For example, the sublists of [1, 2, 3]
+are [], [1], [2], [3], [1, 2], [2, 3] and [1, 2, 3]. Note that your func-
+tion will always return a list containing at least the empty list because the empty list
+is a sublist of every list. Include a main program that demonstrate your function by
+displaying all of the sublists of several different lists.
+

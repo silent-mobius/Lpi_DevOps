@@ -1,0 +1,41 @@
+#python functions
+1.
+	A.Create a function named my_function.
+	B.Call (execute) a function named my_function.
+	C.Inside a function with two parameters, print the first parameter.
+	D.Let the function return the x parameter + 5.
+2.
+Amazon retailer provides express shipping for many of its items at a rate of $12.65
+for the first item, and $1.15 for each subsequent item. Write a function that takes the
+number of items in the order as its only parameter. Return the shipping charge for
+the order as the function’s result. Include a main program that reads the number of
+items purchased from the user and displays the shipping charge.	
+
+3.
+If you have 3 straws, possibly of differing lengths, it may or may not be possible
+to lay them down so that they form a triangle when their ends are touching. For
+example, if all of the straws have a length of 6 inches. then one can easily construct
+an equilateral triangle using them. However, if one straw is 6 inches. long, while the
+other two are each only 2 inches. long, then a triangle cannot be formed. In general,
+if any one length is greater than or equal to the sum of the other two then the lengths
+cannot be used to form a triangle. Otherwise they can form a triangle.
+Write a function that determines whether or not three lengths can form a triangle.
+The function will take 3 parameters and return a Boolean result. In addition, write a
+program that reads 3 lengths from the user and demonstrates the behaviour of this
+function.
+
+4.
+A prime number is an integer greater than 1 that is only divisible by one and itself.
+Write a function that determines whether or not its parameter is prime, returning
+True if it is, and False otherwise. Write a main program that reads an integer
+from the user and displays a message indicating whether or not it is prime. Ensure
+that the main program will not run if the file containing your solution is imported
+into another program.
+
+5.
+Write a function that generates a random password. The password should have a
+random length of between 7 and 10 characters. Each character should be randomly
+selected from positions 33 to 126 in the ASCII table. Your function will not take
+any parameters. It will return the randomly generated password as its only result.
+Display the randomly generated password in your file’s main program. Your main
+program should only run when your solution has not been imported into another file.
