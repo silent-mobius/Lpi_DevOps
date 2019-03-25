@@ -47,8 +47,17 @@ def my_function():
      print("Hello from a function")
      
 B.
-
 def my_function():
   print("Hello from a function")
   
 my_function()
+
+
+C.
+def my_function(fname, lname):
+  print(fname)
+  
+
+D.
+def my_function(x):
+  return x+5
