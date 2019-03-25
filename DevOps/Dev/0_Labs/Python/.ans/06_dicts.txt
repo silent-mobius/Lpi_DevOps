@@ -1,6 +1,7 @@
 #python dictionaries
 1.
-	A.Use the get method to print the value of the "model" key of the car dictionary.
+	A.create a discrionary  that describes car, car's model and year of production.
+		Use the get method to print the value of the "model" key of the car dictionary.
 	B.Change the "year" value from 1964 to 2018.
 	C.Add the key/value pair "color" : "red" to the car dictionary.
 	D.Use the pop method to remove "model" from the car dictionary.
@@ -36,3 +37,32 @@ order. For example, “evil” and “live” are anagrams because each contains
 i, one l, and one v. Create a program that reads two strings from the user, determines
 whether or not they are anagrams, and reports the result.
 
+
+1.
+A.
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car.get("model"))
+
+B.
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car["year"]=2018
+
+C.
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car["color"]="red"
+
+
+D.
