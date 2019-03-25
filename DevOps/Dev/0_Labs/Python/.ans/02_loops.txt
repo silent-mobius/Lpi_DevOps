@@ -49,3 +49,30 @@ among many others. Extend your solution to Exercise 72 so that it ignores spacin
 while determining whether or not a string is a palindrome. For an additional challenge,
 extend your solution so that is also ignores punctuation marks and treats uppercase
 and lowercase letters as equivalent.
+
+
+1.
+A.
+	i = 1
+	while i < 6:
+		print(i)
+		i += 1
+B.
+	i = 1
+		while i < 6:
+			if i == 3:
+				break
+			i += 1
+			
+C.
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+
+D.
+
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  if x == "banana":
+		continue
+  print(x)
