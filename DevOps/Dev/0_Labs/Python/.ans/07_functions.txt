@@ -1,6 +1,6 @@
 #python functions
 1.
-	A.Create a function named my_function.
+	A.Create a function named my_function that prints hello from function.
 	B.Call (execute) a function named my_function.
 	C.Inside a function with two parameters, print the first parameter.
 	D.Let the function return the x parameter + 5.
@@ -39,3 +39,16 @@ selected from positions 33 to 126 in the ASCII table. Your function will not tak
 any parameters. It will return the randomly generated password as its only result.
 Display the randomly generated password in your file’s main program. Your main
 program should only run when your solution has not been imported into another file.
+
+
+1.
+A.
+def my_function():
+     print("Hello from a function")
+     
+B.
+
+def my_function():
+  print("Hello from a function")
+  
+my_function()
