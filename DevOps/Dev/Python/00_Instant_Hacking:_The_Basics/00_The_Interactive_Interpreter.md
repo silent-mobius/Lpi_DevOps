@@ -38,4 +38,31 @@ When you start up Python, you get a prompt similar to the following:
 Python 3.6.8 (default, Mar 01 2019, 10:09:12) 
 [GCC 8.3.1 20190223 (Red Hat 8.3.1-2)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+The exact appearance of the interpreter and its error messages will depend on which version you are using.
+This might not seem very interesting, but believe me, it is. This is your gateway to hackerdom—your first step
+in taking control of your computer. In more pragmatic terms, it’s an interactive Python interpreter. Just to see
+if it’s working, try the following:
+
+>>> print("Hello, world!")
+
+When you press the Enter key, the following output appears:
+
+Hello, world!
+>>>
+
+So what happened here? The >>> thingy is the prompt. You can write something in this space, like print
+"Hello, world!". If you press Enter, the Python interpreter prints out the string “Hello, world!” and you get
+a new prompt below that. What if you write something completely different? Try it out:
+
+>>> No One Expects The Spanish Inquisition
+SyntaxError: invalid syntax
+>>>
+
+Obviously, the interpreter didn’t understand that. 2 (If you are running an interpreter other than IDLE,
+such as the command-line version for Linux, the error message will be slightly different.) The interpreter
+also indicates what’s wrong: it will emphasize the word Spanish by giving it a red background (or, in the
+command-line version, by using a caret, ^)
+
 
