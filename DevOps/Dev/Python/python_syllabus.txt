@@ -1,0 +1,19 @@
+0_Instant_Hacking:_The_Basics
+01_Lists_and_Tuples 
+02_Working_with_Strings
+03_Dictionaries:_When_Indices_Wont_Do
+04_Conditionals_Loops_and_Some_Other_Statements 
+05_Abstraction
+06_More Abstraction
+07_Exceptions
+08_Magic_Methods_Properties_and_Iterators
+09_Batteries_Included
+10_Files_and_Stuff
+11_Graphical_User_Interfaces
+12_Database_Support
+13_Network_Programming
+14_Python_and_the_Web
+15_Testing_1_2_3
+16_Extending_Python
+17_Packaging_Your_Programs 
+18_Playful_Programming
