@@ -26,4 +26,16 @@ Linux, open a terminal, type in python, and press Enter. You should get a welcom
 	>>>
 If you do, you can start entering Python commands immediately. Note, however, that you may have an old
 version of Python. If the first line starts with Python 2 rather than Python 3, you might want to install a
-newer version anyway, as Python 3 introduces several breaking changes.
+newer version anyway, as Python 3 introduces several breaking changes. Yon can find python 3 installation 
+instructions in the main folder of the course.
+Once you have Python installed, try to fire up the interactive interpreter. If you’re using the command
+line, you could simply use the python command, or perhaps python3 if you have an older version installed
+as well.
+
+##The Interactive Interpreter
+
+When you start up Python, you get a prompt similar to the following:
+Python 3.6.8 (default, Mar 01 2019, 10:09:12) 
+[GCC 8.3.1 20190223 (Red Hat 8.3.1-2)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+
