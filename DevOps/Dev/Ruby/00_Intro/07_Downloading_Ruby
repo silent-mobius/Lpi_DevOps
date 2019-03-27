@@ -1,0 +1,6 @@
+Only linux install is supported:
+choose your installer: yum/dnf/apt-get/apt and search for ruby in your remote 
+repository.
+once found issue install command: yum/dnf/apt-get/apt install ruby_version_found.
+You also could go to http://www.ruby-lang.org/en/downloads/ and download the latest
+version there

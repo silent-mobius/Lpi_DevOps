@@ -1,10 +1,6 @@
-01_What_Is_Ruby?
-02_What_Is_Rails?
-03_Matters_of_Ruby_Style
-04_How_to_Read_This_Book
-05_Digging_Deeper
-06_Making_Sense_of_the_Text
-07_Downloading_Ruby
-08_Getting_the_Source_Code_of_the_Sample_Programs
-09_Running_Ruby_Programs
-10_The_Ruby_Library_Documentation
+
+In this class, my aim to guide you safely guide you through the deep waters of 
+Ruby’s syntax and  libraries. In the process, I’ll be exploring both the,
+highs and lows  of Ruby. By the end of the class, you should be able to
+use Ruby safely and effectively without getting caught by unexpected hazards
+along the way.

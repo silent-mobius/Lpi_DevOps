@@ -1,0 +1,6 @@
+Every chapter, apart from the first one, includes a section called “Digging
+Deeper.” This is where you will explore specific aspects of Ruby in greater depth. In
+many cases, you could skip the “Digging Deeper” sections and still learn all
+the Ruby you will ever need. On the other hand, it is in these sections that you
+will often get closest to the inner workings of Ruby, so if you skip them, you'll still learn Ruby
+but, if you go through them it will add to your knowledge of Ruby internals. 

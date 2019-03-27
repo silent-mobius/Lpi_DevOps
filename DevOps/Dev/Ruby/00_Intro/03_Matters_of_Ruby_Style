@@ -1,0 +1,5 @@
+camelCaseStyle and under_score_style. Many argue about what is the right style
+and how it should be use. As for me, due to some background that i have with Python
+I'd prefer to use under_score_style, but if you are used or charmed by some other
+styling, you are welcome to use. As log as you code is easy to understand and read
+code styling does not matter(from my point of view at least)
