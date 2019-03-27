@@ -27,7 +27,7 @@ then your program should display:
 	second
 	third
 
-4.
+4. Do Not Try Before Learning Functions !!!
 A proper divisor of a positive integer, n, is a positive integer less than n which divides
 evenly into n. Write a function that computes all of the proper divisors of a positive
 integer. The integer will be passed to the function as its only parameter. The function
@@ -102,3 +102,18 @@ data.sort()
 print("the sorted values are : " )
 for d in data:
 	print(d,end=" " )
+
+
+3.
+
+words = []
+word = input("Enter a word (blank to quit) :")
+
+
+while word != "":
+	if word not in words:
+		words.append(word)
+	word = input("Enter a word (blank to quit):")
+
+for word in words:
+	print(word)

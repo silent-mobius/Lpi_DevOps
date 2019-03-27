@@ -27,7 +27,7 @@ then your program should display:
 	second
 	third
 
-4.
+4.Do Not Try Before Learning Functions !!!
 A proper divisor of a positive integer, n, is a positive integer less than n which divides
 evenly into n. Write a function that computes all of the proper divisors of a positive
 integer. The integer will be passed to the function as its only parameter. The function
