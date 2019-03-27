@@ -86,3 +86,19 @@ fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
 
 2.
+
+data = []
+
+
+num = int(input('Enter a int (0 to quit): '))
+
+while num != 0:
+	data.append(num)
+	num = int(input('Enter a int (0 to quit): '))
+
+
+data.sort()
+
+print("the sorted values are : " )
+for d in data:
+	print(d,end=" " )
