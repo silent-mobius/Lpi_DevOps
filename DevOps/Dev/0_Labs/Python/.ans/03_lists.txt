@@ -84,3 +84,5 @@ fruits = ["apple", "banana", "cherry"]
 E.
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
+
+2.
