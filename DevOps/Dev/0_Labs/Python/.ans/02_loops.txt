@@ -51,6 +51,8 @@ extend your solution so that is also ignores punctuation marks and treats upperc
 and lowercase letters as equivalent.
 
 
+#ans
+
 1.
 A.
 	i = 1
@@ -81,3 +83,6 @@ E.
 
 for x in range(6):
   print(x)
+
+2.
+
