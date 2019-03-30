@@ -1,4 +1,5 @@
 Here are the commands that we’ll run to build and install Python 3 RedHat based systems:
+```
 [que@vaio DevOps]$ su -
 [root@vaio DevOps]# yum groupinstall -y "development tools"
 [root@vaio DevOps]# yum install -y \
@@ -23,12 +24,13 @@ Here are the commands that we’ll run to build and install Python 3 RedHat base
 [root@vaio DevOps]# ./configure --enable-optimizations
 [root@vaio DevOps]# make altinstall
 [root@vaio DevOps]# exit
-
-Important: make altinstall causes it to not replace the built in python executable.
+```
+> Important: make altinstall causes it to not replace the built in python executable.
 
 
 
 Here are the commands that we’ll run to build and install Python 3 Debian based systems:
+```
 [que@vaio DevOps]$ su -
 [root@vaio DevOps]# apt-get install -y \
   wget \
@@ -52,9 +54,8 @@ Here are the commands that we’ll run to build and install Python 3 Debian base
 [root@vaio DevOps]# exit
 
 Note: make altinstall causes it to not replace the built in python executable.
-
+```
 Upgrade Pip (Don't ask questions - just follow the instructions)
-
-The version of pip that we have might be up-to-date, but it’s good practice to try to update it after the installation. We need to use the pip3.6 executable because we’re working with Python 3, and we use sudo so that we can write files under the /usr/local directory.
-
 [que@vaio DevOps]$ sudo pip3.6 install --upgrade pip
+
+> The version of pip that we have might be up-to-date, but it’s good practice to try to update it after the installation. We need to use the pip3.6 executable because we’re working with Python 3, and we use sudo so that we can write files under the /usr/local directory.

@@ -1,5 +1,6 @@
-##intro
-{id:intro}
+#  Intro
+
+
 So, what is Python, and why should you use it? To quote an old official blurb, it is “an interpreted,
 object-oriented, high-level programming language with dynamic semantics.” Many of these terms will
 become clear as you read this book, but the gist is that Python is a programming language that knows how to
@@ -18,51 +19,52 @@ system administration tasks (it is, for example, a vital component of several Li
 used to teach programming to complete beginners. The US National Aeronautics and Space Administration
 (NASA) uses Python both for development and as a scripting language in several of its systems. Industrial
 Light & Magic uses Python in its production of special effects for large-budget feature films. Google has used it to implement
-many components of its web crawler and search engine. 
+many components of its web crawler and search engine.
 
 To begin, you need to install Python, or verify that you already have it installed. If you’re running
 Linux, open a terminal, type in python, and press Enter. You should get a welcome message, ending with the following prompt:
-	
-	>>>
+
+```
+>>>
+```
 If you do, you can start entering Python commands immediately. Note, however, that you may have an old
 version of Python. If the first line starts with Python 2 rather than Python 3, you might want to install a
-newer version anyway, as Python 3 introduces several breaking changes. Yon can find python 3 installation 
+newer version anyway, as Python 3 introduces several breaking changes. Yon can find python 3 installation
 instructions in the main folder of the course.
 Once you have Python installed, try to fire up the interactive interpreter. If you’re using the command
 line, you could simply use the python command, or perhaps python3 if you have an older version installed
 as well.
 
-##The Interactive Interpreter
+# The Interactive Interpreter
 
 When you start up Python, you get a prompt similar to the following:
-Python 3.6.8 (default, Mar 01 2019, 10:09:12) 
+Python 3.6.8 (default, Mar 01 2019, 10:09:12)
 [GCC 8.3.1 20190223 (Red Hat 8.3.1-2)] on linux
 Type "help", "copyright", "credits" or "license" for more information.
+```
 >>>
-
+```
 The exact appearance of the interpreter and its error messages will depend on which version you are using.
 This might not seem very interesting, but believe me, it is. This is your gateway to hackerdom—your first step
 in taking control of your computer. In more pragmatic terms, it’s an interactive Python interpreter. Just to see
 if it’s working, try the following:
-
+```
 >>> print("Hello, world!")
-
+```
 When you press the Enter key, the following output appears:
-
+```
 Hello, world!
 >>>
-
+```
 So what happened here? The >>> thingy is the prompt. You can write something in this space, like print
 "Hello, world!". If you press Enter, the Python interpreter prints out the string “Hello, world!” and you get
 a new prompt below that. What if you write something completely different? Try it out:
-
+```
 >>> No One Expects The Spanish Inquisition
 SyntaxError: invalid syntax
 >>>
-
+```
 Obviously, the interpreter didn’t understand that. 2 (If you are running an interpreter other than IDLE,
 such as the command-line version for Linux, the error message will be slightly different.) The interpreter
 also indicates what’s wrong: it will emphasize the word Spanish by giving it a red background (or, in the
 command-line version, by using a caret, ^)
-
-
