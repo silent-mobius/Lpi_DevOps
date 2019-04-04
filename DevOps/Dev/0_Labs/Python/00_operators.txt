@@ -13,5 +13,4 @@ Create a program that reads two integers, a and b, from the user. Your program s
 	C.The product of a and b6
 	D.The quotient when a is divided by b
 	E.The remainder when a is divided by b
-	F.The result of log|10^a
-	H.The result of a^b
+	F.The result of a^b
