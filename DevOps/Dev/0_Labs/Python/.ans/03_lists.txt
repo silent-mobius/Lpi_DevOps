@@ -119,7 +119,7 @@ Not Developed Yet
 
 
 5.
-
+Not Developed Yet
 
 
 6.
@@ -144,3 +144,34 @@ print('here are your numbers : ')
 for n in ticket_nums:
 	print(n, end=' ')	
 print()
+
+
+7.
+def all_sub_lists(data):
+	sublists=[[]]
+	
+	for length in range(1,len(data)+1):
+		for i in range(0,len(data)-length +1):
+			sublists.append(data[i:i+length])
+	return sublists
+	
+def main():
+	print('the sub lists of [] are : ')
+	print(all_sub_lists([]))
+	
+	print('the sub lists of [1] are : ')
+	print(all_sub_lists([1]))
+	
+	print('the sub lists of [1,2] are : ')
+	print(all_sub_lists([1,2]))
+	
+	print('the sub lists of [1,2,3] are: ')
+	print(all_sub_lists([1,2,3]))
+	
+	print('the sub lists of [1,2,3,4] are: ')
+	print(all_sub_lists([1,2,3,4]))
+
+
+
+if __name__ == "__main__":
+	main()
