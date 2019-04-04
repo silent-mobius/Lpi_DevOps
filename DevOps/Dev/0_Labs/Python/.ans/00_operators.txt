@@ -1,6 +1,6 @@
 operators:
 1.
-	A.Create a script that usesq variables x and y.Multiply 10 with 5 using x and y, and print the result.
+	A.Create a script that usesq variables x=10 and y=5. Multiply x and y, and print the result.
 	B.In the same script,using divide 10 by 2, and print the result.
 	C.Create a list if fruits.(apple,banana,melon,orange)Use the correct membership operator to check if "apple" is present in the fruits object.
 	D.Create a condition check.Use the correct comparison operator to check if 5 is not equal to 10.
@@ -40,7 +40,9 @@ Create a program that reads two integers, a and b, from the user. Your program s
 		y=10
 		print(x != y)
 		
-	E. if 5 == 10  4 == 4:
+	E. DC_Heroes=10
+	   Marvel=9
+		if DC_Heroes == 10 and Marvel == 4:
             print("At least one of the statements is true")
 
 
