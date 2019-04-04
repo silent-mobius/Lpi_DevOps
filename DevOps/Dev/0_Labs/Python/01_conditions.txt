@@ -1,5 +1,5 @@
 #pyton conditioning
-10.
+1.
 	A.Print "Hello World" if a is greater than b.
 	B.Print "Hello World" if a is greater than b.
 	C.Print "Yes" if a is equal to b, otherwise print "No".
