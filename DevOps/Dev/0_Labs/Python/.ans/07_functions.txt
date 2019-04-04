@@ -61,3 +61,40 @@ def my_function(fname, lname):
 D.
 def my_function(x):
   return x+5
+
+
+
+2.
+
+
+
+
+3.
+
+
+
+
+
+4.
+
+def is_prime(n):
+	if n <=1:
+		return False
+		
+	for i in range(2,n):
+		if n % i == 0 :
+			return False
+		return True
+		
+def main():
+	val = int(input('enter integer: '))
+	
+	if is_prime(val):
+		print(val,'is Prime')
+	else:
+		print(val,'is Not Prime')
+			
+
+if __name__ == '__main__':
+	main()
+
