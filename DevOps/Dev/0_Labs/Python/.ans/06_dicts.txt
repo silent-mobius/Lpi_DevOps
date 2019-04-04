@@ -130,3 +130,32 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+4.
+
+def char_counts(s):
+	counts={}
+	
+	for ch in s:
+		if ch in counts:
+			counts[ch] = counts[ch] + 1
+		else:
+			counts[ch] = 1
+	return counts
+	
+def main():
+	s1 = input('Enter first string: ')
+	s2 = input('Enter second string: ')
+	
+	counts1 = char_counts(s1)
+	counts2 = char_counts(s2)
+	
+	if counts1 == counts2:
+		print('strings are anagrams')
+	else:
+		print('strings are NOT anagrams')
+		
+		
+if __name__ == "__main__":
+	main()
