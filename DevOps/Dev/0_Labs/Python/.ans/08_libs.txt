@@ -27,3 +27,56 @@ as part of network automation, your task is to install, manage and deploy server
 create a script that will ask you destination server, remote server command and user/password for remote connection.
 it will connect to server and return the output to user.
 				https://www.youtube.com/watch?v=kvPa85M9z2Q&pbjreload=10
+
+
+1.
+import os
+import sys
+import platform
+try:
+	import netifaces as ni
+except ModuleNotFoundError:
+	os.system('sudo pip3 install netifaces')
+except Exception as e:
+	print('Unable to install netifaces -  try installing manually')
+	sys.exit(1)
+try:
+	import ipaddress
+except ModuleNotFoundError:
+	os.system('sudo pip3 install ipaddress')
+except Exception as e:
+	print('Unable to install netifaces -  try installing manually')
+	sys.exit(1)
+
+
+def get_inet_details(x): #NEED TO SOLVE
+	inet=ni.ifaddresses(x)
+	while inet is not None:
+		
+	return inet
+	
+
+
+for i in ni.interfaces():
+	print(i,get_inet_details(i))
+	
+	
+
+profile = [
+platform.architecture(),
+platform.dist(),
+platform.libc_ver(),
+platform.mac_ver(),
+platform.node(),
+platform.platform(),
+platform.processor(),
+platform.python_build(),
+platform.python_compiler(),
+platform.python_version(),
+platform.system(),
+#platform.uname(),
+platform.version(),
+]
+
+for p in profile:
+	print(p)
