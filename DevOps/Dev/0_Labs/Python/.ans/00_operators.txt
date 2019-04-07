@@ -34,7 +34,7 @@ Create a program that reads two integers, a and b, from the user. Your program s
 	
 	C.
 		fruits=[apple, banana, melon, orange]
-		"apple" in fruits
+		print("apple" in fruits)
 	D. 
 		x=5
 		y=10
@@ -42,7 +42,7 @@ Create a program that reads two integers, a and b, from the user. Your program s
 		
 	E. DC_Heroes=10
 	   Marvel=9
-		if DC_Heroes == 10 and Marvel == 4:
+		if DC_Heroes == 10 or Marvel == 4:
             print("At least one of the statements is true")
 
 
