@@ -4,3 +4,7 @@
 	B. Create a script that tries to open readonly file. handle exception that does not allows to write in to readonly file.
 	C. Create a script that handles file. it should try to catch any error and should have 'finally' resolution.
 	D. Create a script which handles file, and catchs any exception, but also has 'else' resolution.
+
+
+
+
