@@ -164,9 +164,13 @@ def ssh_connect(dest='', port=22,username='',passwd=''):
 	#	print('error',e,'occured')
 	#	sys.exit(1)
 
-	stdin,stdout,stderr = ssh.exec_command('hostname')
+	stdin,stdout,stderr = ssh.exec_command('ls -la')
 	output=stdout.readlines()
 	return output
+	
+if __name__ == "__main__":
+	var=ssh_connect()
+	print(var)
 
 
 
