@@ -5,3 +5,10 @@
 	C. Create a script that handles file. it should try to catch any error and should have 'finally' resolution.
 	D. Create a script which handles file, and catchs any exception, but also has 'else' resolution.
 
+1.
+	A. try:
+	      print(x)
+	   except:
+		  print("An exception occurred")
+
+	B.
