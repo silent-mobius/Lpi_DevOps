@@ -1,0 +1,2 @@
+
+1. create script that creates a light class.  it should have method that initializes it, and also methods on and off that will put the light on and also off
