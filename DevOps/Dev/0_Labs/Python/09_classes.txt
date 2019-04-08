@@ -1,2 +1,4 @@
 
-1. create script that creates a light class.  it should have method that initializes it, and also methods on and off that will put the light on and also off
+1. create a script that has person class built in it. it should have attributes name and age, and it also suppose to have method that prints the name via attribute.
+2. create script that creates a bulb class.  it should have method that initializes it, and also methods on and off that will put the light on and also off
+
