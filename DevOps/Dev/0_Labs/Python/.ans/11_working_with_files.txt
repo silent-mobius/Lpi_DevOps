@@ -8,7 +8,7 @@
 1.
 	A. try:
 		  f = open("demofile.txt")
-		  f.write("Lorum Ipsum")
+		  f.write("this is demofile")
 	   except:
 		  print("Something went wrong when writing to the file")
 
@@ -18,3 +18,12 @@
 			  f.write("Lorum Ipsum")
 		except:
 			  print("Something went wrong when writing to the file")
+
+	C.
+		try:
+			  f = open("demofile.txt")
+			  f.write("Lorum Ipsum")
+		except:
+			  print("Something went wrong when writing to the file")
+		finally:
+			  f.close()
