@@ -1,2 +1,36 @@
 
 1. create script that creates a light class.  it should have method that initializes it, and also methods on and off that will put the light on and also off
+
+
+
+
+
+1. 
+
+
+class Bulb():
+	def __init__(self, val=False):
+		self._on = val
+	
+	def lights_on(self):
+		if not self._on:
+			print('Lights on')
+			self._on = True
+			
+	def lights_off(self):
+		if self._on:
+			print('Lights off')
+			self._on = False
+			
+
+
+l = Bulb()
+
+g = Bulb(val = True)
+
+
+l.lights_on()
+
+l._on = False
+
+l.lights_on()
