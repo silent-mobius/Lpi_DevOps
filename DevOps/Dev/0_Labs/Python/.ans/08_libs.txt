@@ -130,7 +130,6 @@ if __name__ == "__main__":
 
 3.
 Need to verify
-
 import os
 import sys
 import time
@@ -154,15 +153,16 @@ def ssh_connect(dest='', port=22,username='',passwd=''):
 		if ans == 'y' or ans == 'Y':
 			port = int(input('Please provide port: '))
 		else:
-			pass
+			port =22
 	try:
-		ssh = paramiko.SSHClient()
-		ssh.connect(dest,port,username,passwd)
-	#except SSHException:
-	#	ssh. set_missing_host_key_policy(paramiko.AutoAddPolicy())
-	except Exception as e:
-		print('error',e,'occured')
-		sys.exit(1)
+		ssh =  paramiko.SSHClient()
+		ssh.load_system_host_keys()
+		ssh.connect(dest,username=username,password=passwd, port=port)
+	except SSHException:
+		ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+	#except Exception as e:
+	#	print('error',e,'occured')
+	#	sys.exit(1)
 
 	stdin,stdout,stderr = ssh.exec_command('hostname')
 	output=stdout.readlines()
