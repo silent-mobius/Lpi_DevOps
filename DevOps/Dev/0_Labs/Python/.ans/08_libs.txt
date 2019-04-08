@@ -25,7 +25,7 @@ https://tinydb.readthedocs.io/en/latest/getting-started.html#basic-usage
 3.
 as part of network automation, your task is to install, manage and deploy servers by using paramiko library.
 create a script that will ask you destination server, remote server command and user/password for remote connection.
-it will connect to server and return the output to user.
+it will connect to server and return hostname the output to user.
 				https://www.youtube.com/watch?v=kvPa85M9z2Q&pbjreload=10
 
 
@@ -124,3 +124,51 @@ if __name__ == "__main__":
 	else:
 		print('DB not found')
 		sys.exit(1)
+
+
+
+
+3.
+Need to verify
+
+import os
+import sys
+import time
+
+try:
+	import paramiko
+
+except Exception as e:
+	print('lib missing: try installing it manually')
+	sys.exit(1)
+	
+def ssh_connect(dest='', port=22,username='',passwd=''):
+	if dest == '':
+		dest = input('destination missing. Please insert ip: ') 
+	if username == '':
+		username = input('connection input missing: username:')	
+	if passwd == '':
+		passwd = input('password missing : provide password: ')
+	if port == 22:
+		ans = input('port is 22: change ? y/N')
+		if ans == 'y' or ans == 'Y':
+			port = int(input('Please provide port: '))
+		else:
+			pass
+	try:
+		ssh = paramiko.SSHClient()
+		ssh.connect(dest,port,username,passwd)
+	#except SSHException:
+	#	ssh. set_missing_host_key_policy(paramiko.AutoAddPolicy())
+	except Exception as e:
+		print('error',e,'occured')
+		sys.exit(1)
+
+	stdin,stdout,stderr = ssh.exec_command('hostname')
+	output=stdout.readlines()
+	return output
+
+
+
+if __name__ == "__main__":
+	ssh_connect()
