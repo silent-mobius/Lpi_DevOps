@@ -1,6 +1,6 @@
 1. compound commands and extention and builtin commands
 
-
+ 
 	A. by using a grouping utility create a folder tree as follows:
 		*app:
 			#model:
