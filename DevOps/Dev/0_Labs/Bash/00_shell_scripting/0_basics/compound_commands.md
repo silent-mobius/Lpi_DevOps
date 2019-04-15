@@ -62,3 +62,4 @@
 		
 	H.create a script that reads users input and turns it automatically to array.
 		the array should be kept at predefined file.
+		
